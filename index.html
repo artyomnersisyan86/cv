@@ -10,10 +10,12 @@
 
 <body>
     <div class="container">
+        
         <div class="info">
             <img src="avatar.jpeg" alt="avatar" class="avatar">
+           <div class="info-text">
             <h1>Artyom Nersisyan</h1>
-            <p>I am <em>frontens </em><strong>developers</strong></p>
+            <p>I am frontens <strong>developers</strong></p>
             <p>I enjoj travelling, playing sports and programming</p>
 
             <h4>MY skills</h4>
@@ -23,8 +25,14 @@
             <a href="https://www.facebook.com/artyom.nersisyan.10?locale=ru_RU" target="_blank">
                 facebook
             </a>
+           </div>
 
         </div>
+
+
+        
+
+
         <div class="card bg-yellow">
             <h2>My Hobbies</h2>
             <ol class="list">
@@ -65,19 +73,21 @@
         </div>
 
 
-        <div class="contact">
+        <div class="contact card">
             <h2>
                 Contac me
             </h2>
             <form action="/">
-                <div class="form-group">
-                    <label for="name">Your Name </label>
-                    <input id="name" type="text" placeholder="enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Your email </label>
-                    <input type="email">
-                </div>
+        <div class="row">
+            <div class="form-group">
+                <label for="name">Your Name </label>
+                <input id="name" type="text" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your email </label>
+                <input type="email" placeholder="enter your email">
+            </div>
+        </div>
 
                 <div class="form-group">
                     <label for="text">Your message </label>
@@ -85,10 +95,15 @@
                 </div>
 
 
-                <input type="submit" value="Send email">
+                <input type="submit" class="btn" value="Send email">
             </form>
         </div>
+       
+        
     </div>
+
+
+
 </body>
 
 </html>
