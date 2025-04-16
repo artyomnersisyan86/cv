@@ -9,79 +9,86 @@
 </head>
 
 <body>
-<div class="info">
-    <img src="avatar.jpeg" alt="avatar" class="avatar">
-            
-    <h1>Artyom Nersisyan</h1>
-    <p>I am <em>frontens </em><strong>developers</strong></p>
-    <p>I enjoj travelling, playing sports and programming</p>
-</div>
-    <hr/>
-    <h2>MY skills</h2>
-    <ul type="circle">
-        <li>
-            <a href=" https://www.linkedin.com/in/artyom-nersisyan-82338a175/" target="_blank">linkedin</a>
-        </li>
-        <li>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpeg" alt="avatar" class="avatar">
+            <h1>Artyom Nersisyan</h1>
+            <p>I am <em>frontens </em><strong>developers</strong></p>
+            <p>I enjoj travelling, playing sports and programming</p>
+
+            <h4>MY skills</h4>
+
+            <a href=" https://www.linkedin.com/in/artyom-nersisyan-82338a175/">linkedin</a>
+            |
             <a href="https://www.facebook.com/artyom.nersisyan.10?locale=ru_RU" target="_blank">
-            facebook
-        </a>
-        </li>
-    </ul>
-    <hr>
-    <h2>My Hobbies</h2>
-    <ol>
-        <li>Footbol</li>
-        <li>and cars</li>
-    </ol>
-    <hr>
-    <h2>
-        My Works
-    </h2>
-    <a href="./works.html">See my works</a>
-    <hr>
-    <h2>
-        My works experience
-    </h2>
-    <table border="2" align="center" cellpadding="10">
-        <tr>
-            <th>Company</th>
-            <th>date</th>
-            <th>position</th>
-        </tr>
-        <tr>
-            <td>Individual entrepreneur</td>
-            <td>director</td>
-            <td>2015-2025</td>
-        </tr>
-        <tr>
-            <td>Nairi insurance </td>
-            <td>Frontend developer</td>
-            <td>2019-2025</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>
-        Contac me
-    </h2>
-    <form action="/">
-        <label for="name">Your Name </label>
-        <input id="name" type="text" placeholder="enter your name">
-        <br>
-        <br>
-        <label for="email">Your email </label>
-        <input type="email">
-        <br><br>
-        <label for="text">Your message </label>
-        <textarea id="text"></textarea>
+                facebook
+            </a>
+
+        </div>
+        <div class="card bg-yellow">
+            <h2>My Hobbies</h2>
+            <ol class="list">
+                <li>Football</li>
+                <li>Cars</li>
+            </ol>
+        </div>
 
 
-        <br>
-        <br>
-        <input type="submit" value="Send email">
-    </form>
+        <div class="card bg-green">
+            <h2>
+                My Works
+            </h2>
+            <a href="./works.html">See my works</a>
+        </div>
+
+        <div class="card bg-red">
+            <h2>
+                My works experience
+            </h2>
+            <table class="table">
+                <!-- <tr>
+                    <th>Company</th>
+                    <th>date</th>
+                    <th>position</th>
+                </tr> -->
+                <tr>
+                    <td>Individual entrepreneur</td>
+                    <td>director</td>
+                    <td>2015-2025</td>
+                </tr>
+                <tr>
+                    <td>Nairi insurance </td>
+                    <td>Frontend developer</td>
+                    <td>2019-2025</td>
+                </tr>
+            </table>
+        </div>
 
 
+        <div class="contact">
+            <h2>
+                Contac me
+            </h2>
+            <form action="/">
+                <div class="form-group">
+                    <label for="name">Your Name </label>
+                    <input id="name" type="text" placeholder="enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email </label>
+                    <input type="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Your message </label>
+                    <textarea id="text"></textarea>
+                </div>
+
+
+                <input type="submit" value="Send email">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
